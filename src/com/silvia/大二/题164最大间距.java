@@ -5,10 +5,7 @@ package com.silvia.大二;
  * @Date: 2019/12/1  16:48
  */
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * 给定一个无序的数组，找出数组在排序之后，相邻元素之间最大的差值。
