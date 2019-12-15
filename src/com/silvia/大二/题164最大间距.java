@@ -7,7 +7,8 @@ package com.silvia.大二;
 
 import java.util.Arrays;
 
-/**
+/*
+*
  * 给定一个无序的数组，找出数组在排序之后，相邻元素之间最大的差值。
  * 如果数组元素个数小于 2，则返回 0。
  * 示例 1
@@ -18,7 +19,7 @@ import java.util.Arrays;
  * 输入: [10]
  * 输出: 0
  * 解释: 数组元素个数小于 2，因此返回 0。
- */
+*/
 public class 题164最大间距 {
     public int maximumGap(int[] nums) {
         if (nums.length < 2) {
