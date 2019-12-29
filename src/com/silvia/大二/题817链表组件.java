@@ -20,9 +20,9 @@ public class 题817链表组件 {
         ListNode(int x) { val = x; }
     }
     public int numComponents(ListNode head, int[] G) {
-        Set<Integer> Gset = new HashSet();
+        Set<Integer> set = new HashSet();
         for (int x: G) {
-            Gset.add(x);
+            set.add(x);
         }
 
         ListNode cur = head;
@@ -30,8 +30,8 @@ public class 题817链表组件 {
         //因此如果当前的节点在列表 G 中，并且下一个节点不在列表 G 中
         //我们就找到了一个组件的尾节点，可以将答案加 1。
         while (cur != null) {
-            if (Gset.contains(cur.val) &&
-                    (cur.next == null || !Gset.contains(cur.next.val)))
+            if (set.contains(cur.val) &&
+                    (cur.next == null || !set.contains(cur.next.val)))
                 ans++;
             cur = cur.next;
         }

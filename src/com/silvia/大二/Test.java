@@ -23,5 +23,10 @@ public class Test {
         System.out.println(w.countAndSay( 4 ));
         */
 
+        String[] t = {"Hello", "Alaska", "Dad", "Peace"};
+        题500键盘行 w = new 题500键盘行();
+
+        System.out.println(w.findWords( t )[0] + " " + w.findWords( t )[1]);
+
     }
 }
