@@ -6,6 +6,7 @@ import java.util.Arrays;
  * @Author: Silvia
  * @Date: 2019/12/29  18:13
  */
+
 /*
 给定一位研究者论文被引用次数的数组（被引用次数是非负整数）。编写一个方法，计算出研究者的 h 指数。
 h 指数的定义: “h 代表“高引用次数”（high citations），

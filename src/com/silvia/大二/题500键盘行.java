@@ -27,7 +27,6 @@ public class 题500键盘行 {
             }
             for (int i = 1; i < word.length(); i++) {
                 if (line[t].contains( word.charAt( i ) + "" ) == false) {
-                   // System.out.println(word + "  i :" + i + " " + word.charAt( i ) );
                     flag = 0;
                     break;
                 }
@@ -41,7 +40,6 @@ public class 题500键盘行 {
         for (int i = 0; i < rr.size(); i++) {
             re[i] = rr.get( i );
         }
-
         return re;
     }
 }
