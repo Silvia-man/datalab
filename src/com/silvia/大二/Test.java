@@ -21,12 +21,15 @@ public class Test {
         System.out.println(b.rob( nums ));
         题38报数 w = new 题38报数();
         System.out.println(w.countAndSay( 4 ));
-        */
+
 
         String[] t = {"Hello", "Alaska", "Dad", "Peace"};
         题500键盘行 w = new 题500键盘行();
 
         System.out.println(w.findWords( t )[0] + " " + w.findWords( t )[1]);
-
+*/
+        题01两数之和 n = new 题01两数之和();
+        int []t = {0,1,2,3};
+        System.out.println(n.twoSum( t,3 )[0]);
     }
 }
