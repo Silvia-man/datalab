@@ -4,7 +4,7 @@ package com.silvia.大二;
  * @Author: Silvia
  * @Date: 2019/11/11  14:06
  */
-public class 题8字符串转换整数 {
+public class 题08字符串转换整数 {
     public  int myAtoi(String str) {
         String temp = str.trim();
         //trim()方法会去掉字符串两端的空格。

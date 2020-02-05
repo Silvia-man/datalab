@@ -7,7 +7,7 @@ import java.util.List;
  * @Author: Silvia
  * @Date: 2020/1/21  22:07
  */
-public class 题6Z字形变换 {
+public class 题06Z字形变换 {
 
     class Solution {
         public String convert(String s, int numRows) {
